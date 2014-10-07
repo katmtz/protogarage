@@ -3,5 +3,10 @@
 	<h1>so ur new to build18?</h1>
 	<p>you will be able to sign up here.</p>
 	<p><a href="{% url 'home' %}">back to home</a></p>
+	<form class="form" action="{% url 'create_user' %}" method="post">
+		{% csrf_token %}
+		{{ form }}
+		<button type="submit">clicky clicky</button>
+	<form>
 </body>
 </html>
