@@ -14,3 +14,6 @@ team registration site using django.
 
 ## CURRENT FEATURES:
 * well you can go to a home page....
+
+
+**note** this project is discontinued
